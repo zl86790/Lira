@@ -11,4 +11,4 @@ spring:
             prefix: /WEB-INF/jsp/  
             suffix: .jsp  
     resources:
-        static-locations: /WEB-INF/bootstrap-4.0.0-dist,/WEB-INF/customcss
+        static-locations: /WEB-INF/bootstrap-4.0.0-dist,/WEB-INF/customcss,/WEB-INF/imgs
