@@ -1,0 +1,14 @@
+server:
+    port: 8081
+    sessionTimeout: 30
+spring:         
+    http:  
+        encoding.charset: UTF-8  
+        encoding.enable: true  
+        encoding.force: true  
+    mvc:  
+        view:  
+            prefix: /WEB-INF/jsp/  
+            suffix: .jsp  
+    resources:
+        static-locations: /WEB-INF/bootstrap-3.3.7-dist
